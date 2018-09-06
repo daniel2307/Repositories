@@ -1,3 +1,12 @@
-<p>
-  repositories works!
-</p>
+<div class="row">
+  <div class="col" *ngFor="let user of users">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="{{ user.avatar_url }}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{ user.name }}</h5>
+        <span class="card-text">nickName: {{ user.nickName }}</span>
+        <p class="card-text">Url: <a href="{{ user.github_url }}">{{ user.github_url }}</a> </p>
+      </div>
+    </div>
+  </div>
+</div>
