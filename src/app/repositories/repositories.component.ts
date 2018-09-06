@@ -37,6 +37,42 @@ export class RepositoriesComponent implements OnInit {
         "github_url": "https://github.com/d3",
         "name": "Data Driven Documents",
         "nickName": "D3.js"
+    },
+    {
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1630826?s=200&v=4",
+        "github_url": "https://github.com/gruntjs",
+        "name": "GRUNT",
+        "nickName": "GRUNT.js"
+    },
+    {
+        "avatar_url": "https://avatars1.githubusercontent.com/u/1562726?s=200&v=4",
+        "github_url": "https://github.com/d3",
+        "name": "Data Driven Documents",
+        "nickName": "D3.js"
+    },
+    {
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1630826?s=200&v=4",
+        "github_url": "https://github.com/gruntjs",
+        "name": "GRUNT",
+        "nickName": "GRUNT.js"
+    },
+    {
+        "avatar_url": "https://avatars1.githubusercontent.com/u/1562726?s=200&v=4",
+        "github_url": "https://github.com/d3",
+        "name": "Data Driven Documents",
+        "nickName": "D3.js"
+    },
+    {
+        "avatar_url": "https://avatars0.githubusercontent.com/u/1630826?s=200&v=4",
+        "github_url": "https://github.com/gruntjs",
+        "name": "GRUNT",
+        "nickName": "GRUNT.js"
+    },
+    {
+        "avatar_url": "https://avatars1.githubusercontent.com/u/1562726?s=200&v=4",
+        "github_url": "https://github.com/d3",
+        "name": "Data Driven Documents",
+        "nickName": "D3.js"
     }
   ];
   constructor() { }

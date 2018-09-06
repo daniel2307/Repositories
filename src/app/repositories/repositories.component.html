@@ -1,7 +1,7 @@
 <div class="row">
   <div class="col" *ngFor="let user of users">
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="{{ user.avatar_url }}" alt="Card image cap">
+    <div class="card" style="width: 18rem; margin: 1rem;">
+      <img class="card-img-top" src="{{ user.avatar_url ? user.avatar_url : '/assets/img/sin_imagen.jpg' }}" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">{{ user.name }}</h5>
         <span class="card-text">nickName: {{ user.nickName }}</span>
